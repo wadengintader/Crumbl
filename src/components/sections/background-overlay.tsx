@@ -7,10 +7,10 @@ const AnimatedBackground = () => {
     <>
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-20">
         <Heart className="absolute top-20 left-10 w-8 h-8 text-green-500 animate-rotate-slow" />
-        <Star className="absolute top-20 left-10 w-8 h-8 text-accent animate-float-spin" />
-        <Sparkles className="absolute top-25 right-10 w-8 h-8 text-accent animate-twinkle" />
-        <Gift className="absolute bottom-20 left-10 w-8 h-8 text-green-500 animate-rotate-reverse" />
-        <Star className="absolute bottom-20 right-10 w-8 h-8 text-accent animate-float-gentle" />
+        <Star className="absolute top-40 left-10 w-8 h-8 text-accent animate-float-spin" />
+        <Sparkles className="absolute top-32 right-16 w-8 h-8 text-accent animate-twinkle" />
+        <Gift className="absolute bottom-40 left-16 w-8 h-8 text-green-500 animate-rotate-reverse" />
+        <Star className="absolute bottom-60 right-20 w-8 h-8 text-accent animate-float-gentle" />
         <Heart className="absolute top-1/2 left-8 w-8 h-8 text-green-500 animate-rotate-slow" />
         <Sparkles className="absolute top-1/3 right-12 w-8 h-8 text-accent animate-float-spin" />
       </div>
@@ -65,3 +65,4 @@ const AnimatedBackground = () => {
 
 
 export default AnimatedBackground;
+
