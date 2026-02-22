@@ -17,42 +17,42 @@ const AnimatedBackground = () => {
 
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15">
           <Image
-            src="https://i.imgur.com/YPVv54m.png"
+            src="https://i.imgur.com/JUgxzmR.png"
             alt=""
             width={100}
             height={100}
-            className="absolute top-30 left-30 w-20 h-20 object-contain animate-float-gentle delay-1000"
+            className="absolute top-20 left-10 w-17 h-17 object-contain animate-float-gentle delay-1000"
           />
           <Image
-            src="https://i.imgur.com/3wwd4xf.png"
+            src="https://i.imgur.com/Jlzv3bo.png"
             alt=""
             width={160}
             height={160}
-            className="absolute top-32 right-16 w-20 h-20 object-contain animate-float-gentle"
+            className="absolute top-32 right-10 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/PrV8lDj.png"
+            src="https://i.imgur.com/PmCo8Z8.png"
             alt=""
             width={160}
             height={160}
             className="absolute top-1/3 left-20 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/faOzrDr.png"
+            src="https://i.imgur.com/PeidOcZ.png"
             alt=""
             width={160}
             height={160}
             className="absolute top-1/2 right-24 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/iKvU6cL.png"
+            src="https://i.imgur.com/KEr8WJ5.png"
             alt=""
             width={160}
             height={160}
             className="absolute bottom-40 left-16 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/xA1xNTB.png"
+            src="https://i.imgur.com/mkKi9HT.png"
             alt=""
             width={80}
             height={80}

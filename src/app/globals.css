@@ -218,15 +218,19 @@
   .text-shadow-lg {
     text-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
-  
+
   .gift-card-shadow {
     box-shadow: 0 15px 40px rgba(0,0,0,0.5);
   }
 
+  .halo-fix {
+    filter: drop-shadow(0 0 0.8px rgba(0,0,0,0.6));
+  }
+
   .bg-cube-pattern {
-      background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
-      background-size: 20px 20px;
-    }
+    background-image: radial-gradient(var(--color-border) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
 
   .animate-float-gentle { animation: float-gentle 5s ease-in-out infinite; }
   .animate-float-spin   { animation: float-spin 6s ease-in-out infinite; }

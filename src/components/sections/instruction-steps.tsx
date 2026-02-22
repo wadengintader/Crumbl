@@ -40,12 +40,12 @@ const steps: Step[] = [
 export default function InstructionSteps() {
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#540402]/25 shadow-[0_8px_32_rgba(85, 5, 3)] overflow-hidden group/box transition-all duration-500 hover:border-[#540402]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#ffa0bb]/25 shadow-[0_8px_32_rgb(0, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#ffa0bb]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
-            src="https://i.imgur.com/HedloQy.jpeg"
+            src="https://i.imgur.com/Blglsjk.png"
             alt=""
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-16"
           />
         </div>
 
@@ -61,7 +61,7 @@ export default function InstructionSteps() {
               className="flex items-center gap-1.5 sm:gap-2.5 group/item animate-in fade-in slide-in-from-left duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#540402]/15 text-[#540402] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#ffa0bb]/15 text-[#ffa0bb] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 
